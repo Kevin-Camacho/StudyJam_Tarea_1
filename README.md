@@ -27,7 +27,7 @@ Dentro de Android Studio:
 
 <div align="center">
     <center>
-        <img src="/img/captura.png" width="300">
+        <img src="/img/captura.png" width="300" border="5px">
     </ center >
 </ div >
 <br><br>
