@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ima"
+    tools:context="kevcompany.tarea1.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="UselessParent">
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center">
+       <ImageView
+           android:layout_width="270dp"
+           android:layout_height="110dp"
+           android:background="@drawable/logo"
+           android:layout_marginTop="40dp"
+           android:contentDescription=""
+           tools:ignore="ContentDescription" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="30dp"
+           android:textColor="#ffffff"
+           android:textStyle="bold"
+           android:text="@string/escucha_tus_canciones_y_tus"
+           android:gravity="center"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="#ffffff"
+           android:textStyle="bold"
+           android:text="@string/artistas_favoritos"
+           android:gravity="center"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton1"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:text="@string/registrate_gratis"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton2"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:text="@string/iniciar_secion_en_facebook"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:text="@string/ya_tienes_una_cuenta"
+            android:gravity="center"
+            android:layout_marginTop="31dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton3"
+            android:textStyle="bold"
+            android:text="@string/iniciar_secion"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

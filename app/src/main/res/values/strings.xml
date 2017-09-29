@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tarea1</string>
+    <string name="escucha_tus_canciones_y_tus">Escucha tus canciones y tus</string>
+    <string name="iniciar_secion_en_facebook">INICIAR SECION EN FACEBOOK</string>
+    <string name="iniciar_secion">INICIAR SECION</string>
+    <string name="registrate_gratis">REGISTRATE GRATIS</string>
+    <string name="artistas_favoritos">artistas favoritos.</string>
+    <string name="ya_tienes_una_cuenta">¿Ya tienes una cuenta?</string>
+</resources>
